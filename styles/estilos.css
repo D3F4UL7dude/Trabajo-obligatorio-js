@@ -17,15 +17,15 @@ body {
 /*Font Families*/
 @font-face {
     font-family: 'open';
-    src: url(/assets/fonts/opensans.woff2) format('woff2'), url(/assets/fonts/opensans.ttf) format('truetype');
+    src: url(/Trabajo-obligatorio-js/assets/fonts/opensans.woff2) format('woff2'), url(/Trabajo-obligatorio-js/assets/fonts/opensans.ttf) format('truetype');
 }
 @font-face {
     font-family: 'jost';
-    src: url(/assets/fonts/jost.woff2) format('woff2'), url(/assets/fonts/jost.ttf) format('truetype');
+    src: url(/Trabajo-obligatorio-js/assets/fonts/jost.woff2) format('woff2'), url(/Trabajo-obligatorio-js/assets/fonts/jost.ttf) format('truetype');
 }
 @font-face {
     font-family: 'playfair';
-    src: url(/assets/fonts/playfair.woff2) format('woff2'), url(/assets/fonts/playfair.ttf) format('truetype');
+    src: url(/Trabajo-obligatorio-js/assets/fonts/playfair.woff2) format('woff2'), url(/Trabajo-obligatorio-js/assets/fonts/playfair.ttf) format('truetype');
 }
 
 /* INDEX */
@@ -446,7 +446,7 @@ body {
 }
 /* formularios */
 .parte-formulario{
-    background-image: url(/assets/img/fondo2.jpg);
+    background-image: url(/Trabajo-obligatorio-js/assets/img/fondo2.jpg);
     border: 15px solid white;
     height: 100%;
 }

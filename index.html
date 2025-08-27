@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Final JS - Home</title>
+    <!-- estilos -->
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- mis estilos -->
+    <link rel="stylesheet" href="/styles/estilos.css">
+</head>
+
+<body>
+    <!-- codigo de la parte sup -->
+    <header class="fixed-top">
+        <div class="container-fluid">
+            <div class="row parte-sup">
+                <!-- codigo del logo -->
+                <div class="col-1 columna-logo">
+                    <div class="img-container">
+                        <a href="/index.html">
+                            <img class="img-logo" alt="Logo Nicolás Vidal" src="/assets/img/logo.png">
+                        </a>
+                    </div>
+                </div>
+                <!-- codigo del nombre -->
+                <div class="col-2 columna-nombre">
+                    <div class="nombre-container">
+                        <a class="nombre" href="/index.html"> Nicolás Vidal</a>
+                    </div>
+                </div>
+                <div class="col-5 "></div>
+                <!-- codigo del navbar -->
+                <div class="col-4 columna-links">
+                    <nav class="navbar navbar-expand-lg bg-body-primary">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="/index.html">INICIO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/views/galeria.html">GALERÍA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/views/presupuesto.html">PRESUPUESTO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/views/contacto.html">CONTACTO</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container-fluid p-0">
+                <div class="row parte-hero">
+                    <div class="col-12 columna-carousel">
+                        <!-- carrusel -->
+                        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3500">
+                                    <img src="/assets/img/foto1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3500">
+                                    <img src="/assets/img/foto2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3500">
+                                    <img src="/assets/img/foto4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3500">
+                                    <img src="/assets/img/foto3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- texto y boton -->
+                        <div class="hero-texto">
+                            <h1 class="titulo"> Full-Stack Web Developer </h1>
+                            <p class="subtitulo">¡DALE VIDA A TU NEGOCIO CON UNA NUEVA CARA Y POSICIONAMIENTO!</p>
+                            <a type="button" href="/views/contacto.html" class="btn btn-primary btn-lg">¡CONTACTANOS!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tecnologias -->
+        <section class="tecnologias">
+            <div class="container-fluid">
+                <!-- Texto tecnologias -->
+                <div class="row parte-intro-tecnologias">
+                    <div class="col-2"></div>
+                    <div class="col-8 columna-intro-tecnologias">
+                        <section class="linea-texto">
+                            <div class="linea"></div>
+                            <span>TECNOLOGÍAS QUE EMPLEAMOS</span>
+                            <div class="linea"></div>
+                        </section>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <!-- logos tecnologias -->
+                <div class="row parte-logos-tecnologias">
+                    <div class="col-4 columna-logo-tec">
+                        <div class="img-container-tec">
+                            <img class="img-tec" alt="logo de Html" src="/assets/img/html.logo.png">
+                        </div>
+                    </div>
+                    <div class="col-4 columna-logo-tec">
+                        <div class="img-container-tec">
+                            <img class="img-tec" alt="Logo de Css" src="/assets/img/css.logo.png">
+                        </div>
+                    </div>
+                    <div class="col-4 columna-logo-tec-ult">
+                        <div class="img-container-tec">
+                            <img class="img-tec" alt="Logo de Java Script" src="/assets/img/java.logo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- articulos -->
+        <section class="articulos">
+            <div class="container-fluid">
+                <div class="row intro-articulos">
+                    <div class="col-12 columna-titulo-articulos">
+                        <h1 class="titulo-articulos">ARTICULOS QUE PODRIAN INTERESARTE</h1>
+                    </div>
+                </div>
+                <a class="link-articulo" id="link-articulo-1" href="">
+                    <div class="row parte-articulos-1">
+                        <div class="col-1 inv"></div>
+                        <div class="col-4 columna-img-articulo">
+                            <div class="img-container-articulo">
+                                <img class="img-articulo" src="placeholder.jpg" id="imagen-articulo-1" alt="imagen de la noticia">
+                            </div>
+                        </div>
+                        <div class="col-6 columna-texto-articulos">
+                            <h1 class="titulo-del-articulo" id="titulo-articulo-1"></h1>
+                            <h4 class="descripcion-del-articulo" id="descripcion-articulo-1"></h4>
+                            <p class="fecha-del-articulo" id="fecha-articulo-1"></p>
+                        </div>
+                        <div class="col-1 inv"></div>
+                    </div>
+                </a>
+                <a class="link-articulo" id="link-articulo-2" href="">
+                    <div class="row parte-articulos-2">
+                        <div class="col-1 inv"></div>
+                        <div class="col-4 columna-img-articulo">
+                            <div class="img-container-articulo">
+                                <img class="img-articulo" src="placeholder.jpg" id="imagen-articulo-2" alt="imagen de la segunda noticia">
+                            </div>
+                        </div>
+                        <div class="col-6 columna-texto-articulos">
+                            <h1 class="titulo-del-articulo" id="titulo-articulo-2"></h1>
+                            <h4 class="descripcion-del-articulo" id="descripcion-articulo-2"></h4>
+                            <p class="fecha-del-articulo" id="fecha-articulo-2"></p>
+                        </div>
+                        <div class="col-1 inv"></div>
+                    </div>
+                </a>
+                <a class="link-articulo" id="link-articulo-3" href="">
+                    <div class="row parte-articulos-3">
+                        <div class="col-1 inv"></div>
+                        <div class="col-4 columna-img-articulo">
+                            <div class="img-container-articulo">
+                                <img class="img-articulo" src="placeholder.jpg" id="imagen-articulo-3" alt="imagen de la tercera noticia">
+                            </div>
+                        </div>
+                        <div class="col-6 columna-texto-articulos">
+                            <h1 class="titulo-del-articulo" id="titulo-articulo-3"></h1>
+                            <h4 class="descripcion-del-articulo" id="descripcion-articulo-3"></h4>
+                            <p class="fecha-del-articulo" id="fecha-articulo-3"></p>
+                        </div>
+                        <div class="col-1 inv"></div>
+                    </div>
+                </a>
+                <a class="link-articulo" id="link-articulo-4" href="">
+                    <div class="row parte-articulos-4">
+                        <div class="col-1 inv"></div>
+                        <div class="col-4 columna-img-articulo">
+                            <div class="img-container-articulo">
+                                <img class="img-articulo" src="placeholder.jpg" id="imagen-articulo-4" alt="imagen de la cuarta noticia">
+                            </div>
+                        </div>
+                        <div class="col-6 columna-texto-articulos">
+                            <h1 class="titulo-del-articulo" id="titulo-articulo-4"></h1>
+                            <h4 class="descripcion-del-articulo" id="descripcion-articulo-4"></h4>
+                            <p class="fecha-del-articulo" id="fecha-articulo-4"></p>
+                        </div>
+                        <div class="col-1 inv"></div>
+                    </div>
+                </a>
+            </div>
+            <div class="row parte-articulos-fondo"></div>
+        </section>
+        <!-- Planes -->
+        <section class="planes">
+            <div class="container-fluid">
+                <div class="row parte-planes">
+                    <div class="col-4 columna-planes">
+                        <div class="card" style="width: 20rem;">
+                            <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Landing Page</h5>
+                                <p class="card-text">Una pagina Web en la cual desplegar algo de información, enseñar
+                                    galerias
+                                    poco sobre la marca y ofrecer contaco.</p>
+                                <p>Renueve su aspecto en Linea de manera facil y rapida.</p>
+                                <ul>
+                                    <li>Pagina Principal</li>
+                                    <li>galeria</li>
+                                </ul>
+                                <a href="/views/presupuesto.html" class="btn btn-secondary">Elegir Paquete</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 columna-planes">
+                        <div class="card" style="width: 20rem;">
+                            <img src="/assets/img/card2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Landing Page, +PLUS</h5>
+                                <p class="card-text">A su pagina principal personalizada agreguele mas vistas,
+                                    contenido, compatibilidad y formularios para el
+                                    usuario:
+                                </p>
+                                <ul>
+                                        <li>Encuestas</li>
+                                        <li>Reservas</li>
+                                        <li>Presupuestos</li>
+                                    </ul>
+                                <a href="/views/presupuesto.html" class="btn btn-secondary">Elegir Paquete</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 columna-planes">
+                        <div class="card" style="width: 20rem;">
+                            <img src="/assets/img/card3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Landing Page, +PLUS + Base de Datos</h5>
+                                <p class="card-text">Para aquellos que tambien necesiten un sistema completamente
+                                    personalizado
+                                    para su negocio:
+                                </p>
+                                <ul>
+                                    <li>Sistema de Usuarios (clientes y/o empleados)</li>
+                                    <li>Sistema de Inventario</li>
+                                    <li>Gestion de Permisos / Impresos</li>
+                                    <li>Etc..</li>
+                                </ul>
+                                <a href="/views/presupuesto.html" class="btn btn-secondary">Elegir Paquete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row parte-footer">
+                <div class="col-1"></div>
+                <div class="col-1">
+                    <div class="img-container-footer">
+                        <a href="https://www.instagram.com/masterdformacion/?hl=es" target="_blank">
+                            <img class="logo-ig" src="/assets/img/logo-ig.2.0.png" alt="logo de instagram">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="img-container-footer">
+                        <a href="https://github.com/D3F4UL7dude" target="_blank">
+                            <img class="logo-git" src="/assets/img/git-hub.png" alt="logo de github">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="img-container-footer">
+                        <a href="https://wa.me/34692670308?text=Hola,%20me%20gustaria%20informació%20sobre%20un%20producto"
+                            target="_blank">
+                            <img class="logo-wpp" src="/assets/img/logo-wpp.2.0.png" alt="logo de whatsapp">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3 disclaimer-footer">
+                    <p class="p-disclaimer">Nicolas Vidal. Copyright©. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2 disclaimer-footer">
+                    <p class="p-disclaimer">12598, C.Blasco Ibañez 13</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- scripts -->
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- noticias -->
+    <script src="/scripts/noticias.js"></script>
+</body>
+
+</html>

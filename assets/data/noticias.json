@@ -1,0 +1,30 @@
+[
+    {
+        "imagen": "assets/img/noticia1.jpeg",
+        "titulo": "Las empresas de vibe coding están descubriendo la cruda realidad de la IA: es imposible ganar dinero con ella:",
+        "descripcion": "Acceder a los mejores modelos de IA para programar no sale barato y las startups de vibe coding se están dando cuenta.",
+        "fecha": "11/08/25",
+        "url": "https://www.xataka.com/robotica-e-ia/startups-vibe-coding-se-enfrentan-a-cruda-realidad-programacion-ia-no-sale-a-cuentas"
+    },
+    {
+        "imagen": "assets/img/noticia2.jpeg",
+        "titulo": "Me he pasado un mes trabajando con un monitor para programadores. Los que pican código hasta las tantas están de enhorabuena:",
+        "descripcion": "La firma lanza una línea de monitores pensada para los que pican código hasta las tantas de la noche.",
+        "fecha": "18/01/25",
+        "url": "https://www.xataka.com/analisis/me-he-pasado-mes-trabajando-monitor-para-programadores-que-pican-codigo-tantas-estan-enhorabuena"
+    },
+    {
+        "imagen": "assets/img/noticia3.jpg",
+        "titulo": "La programación informática supone el 26,8% del total de empleos TIC:",
+        "descripcion": "La alta demanda de profesionales especializados en tecnologías ha generado un aumento de la ocupación del 40% en los últimos cinco años en España. Entre las tendencias que imp...",
+        "fecha": "30/09/24",
+        "url": "https://www.ituser.es/en-cifras/2024/09/la-programacion-informatica-supone-el-268-del-total-de-empleos-tic"
+    },
+    {
+        "imagen": "assets/img/noticia4.jpeg",
+        "titulo": "Cuando un desarrollador se puso en manos de la IA para programar no contó con algo: la IA borrando toda la base de datos de su app:",
+        "descripcion": "Al menos habrá trabajo para quien sepa arreglar sus pifias",
+        "fecha": "25/07/25",
+        "url": "https://www.xataka.com/robotica-e-ia/este-desarrollador-se-prometia-felices-usando-ia-para-programar-que-ia-borro-toda-base-datos-su-app"
+    }
+]
